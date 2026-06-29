@@ -1,0 +1,16 @@
+<VRTDataset rasterXSize="256" rasterYSize="256">
+  <VRTRasterBand dataType="UInt16" band="1" subClass="VRTRawRasterBand">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">65511</MDI>
+      <MDI key="STATISTICS_MEAN">32820.626235962</MDI>
+      <MDI key="STATISTICS_MINIMUM">180</MDI>
+      <MDI key="STATISTICS_STDDEV">18904.099442108</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <SourceFilename relativeToVRT="1">5400000093.hght</SourceFilename>
+    <ImageOffset>0</ImageOffset>
+    <PixelOffset>2</PixelOffset>
+    <LineOffset>512</LineOffset>
+    <ByteOrder>LSB</ByteOrder>
+  </VRTRasterBand>
+</VRTDataset>
