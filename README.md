@@ -2,10 +2,11 @@
 
 ## Setup
 
-This requires gdal to compute and work with tiff formats.  It can probably
-be done without gdal, but its a bit easier. gdal can be quite large to install.
-If this is an issue, let me know and we can probably come up with a solution
-without expensive requirements.
+The original version requires gdal to compute and work with tiff formats.  It can
+be done without gdal, but gdal is a bit easier. gdal can be quite large to install.
+
+See `generate_layers.py` and `topo.png` for a python only version (requires numpy and PIL)
+
 
 ## Create Topography
 
