@@ -19,22 +19,22 @@ This follows the format from https://zeldamods.org/wiki/HGHT
 
 ## Create Water Layers
 
-   python ./heightmap_water_all.py
+    python ./heightmap_water_all.py
 
 Should generate a 3072x3072 grayscale images of the materials and the water height
 
-   heightmap_material.tiff
-   heightmap_water_y.tiff
+    heightmap_material.tiff
+    heightmap_water_y.tiff
 
 This follows the format from https://zeldamods.org/wiki/Water.extm
 
 ## Create Layers
 
-   sh ./georef_water_topo_layers.sh
+    sh ./georef_water_topo_layers.sh
 
 This creates lots of files for the "liquid" or water layers, including lava
 
-   heightmap_water_???_epsg32662_800.tiff
+    heightmap_water_???_epsg32662_800.tiff
 
 - Georeference layers to EPSG 32662 (Plate Carree)
   - Setting bounds for each layer
@@ -50,10 +50,11 @@ This creates lots of files for the "liquid" or water layers, including lava
 
 - Color the topography
 
-   color_topo_map.sh
+
+`color_topo_map.sh`
 
 This should produce
 
-   heightmap800_epsg32662_rgb.tiff
+    heightmap800_epsg32662_rgb.tiff
 
 and RGB tiff image with the topography colored by the colorscale in botw_colormap.txt.  This scale goes from dark brown to light brown / white. See colormap_data.png and compute_colormap.py to determine how the map was created.  
